@@ -1,5 +1,7 @@
 # Quantitative analysis of delay-discounting questionnaire
 
+Andreas Papasalouros
+
 This repository contains the Python code used for the quantitative analysis of
 a student questionnaire on **delay discounting**, **time-shifted monetary
 choices**, and **school procrastination**.
@@ -275,6 +277,12 @@ For the analyzed dataset (`N = 192`), the main results were:
   has limited power for the smaller Lyceum group.
 - Monetary rewards were hypothetical.
 - Secondary analyses should be interpreted as exploratory.
+
+
+## Acknowledgements
+
+ChatGPT (OpenAI) was used to assist with the implementation and documentation
+of the Python analysis code. All analyses and results were reviewed by the authors.
 
 ## 11. Reference
 
