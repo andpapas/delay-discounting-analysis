@@ -290,11 +290,3 @@ Kirby, K. N., Petry, N. M., & Bickel, W. K. (1999). *Heroin addicts have
 higher discount rates for delayed rewards than non-drug-using controls*.
 **Journal of Experimental Psychology: General, 128**(1), 78–87.
 
----
-
-If this repository is used for review, the recommended public configuration is:
-
-- publish `analysis.py`, `README.md`, `requirements.txt`, the synthetic stub,
-  and aggregate reference results;
-- do **not** publish `data/private/raw_responses_private.xlsx` or any derived
-  participant-level CSV generated from it.
