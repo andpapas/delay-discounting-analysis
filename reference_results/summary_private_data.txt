@@ -1,0 +1,43 @@
+N = 192
+Gender: {'Αγόρι': 96, 'Κορίτσι': 86, 'Προτιμώ να μην απαντήσω': 5, 'Άλλο': 3, None: 2}
+School: {'Γυμνάσιο': 168, 'Λύκειο': 24}
+
+Reliable k (consistency >=75%): 164/192 = 85.4%
+Perfect consistency: 85
+Acceptable non-perfect: 79
+Below 75%: 28
+Median k: 0.061721
+IQR k: 0.013605 – 0.084515
+
+Now LDR rate: 44.988%
+Future-shifted LDR rate: 55.343%
+Paired t: t(191)=4.949523, p=1.628726236e-06
+Mean difference: 10.355 percentage points
+95% CI: 6.228 – 14.481
+Cohen dz: 0.357
+
+Reversals:
+{'LDR→SIR': 162, 'LDR→LDR': 606, 'SIR→LDR': 333, 'SIR→SIR': 600}
+
+Gender reliable subset:
+Boys n=80, mean ln(k)=-3.240696, median k=0.060708
+Girls n=75, mean ln(k)=-3.126931, median k=0.069007
+Welch t=-0.831554, df=152.949257, p=0.4069572516
+Sensitivity all k estimates: p=0.3130220937
+
+School level reliable subset:
+Gymnasium n=144, mean ln(k)=-3.179867, median k=0.061721
+Lyceum n=20, mean ln(k)=-3.369341, median k=0.041633
+Welch t=0.870177, df=23.636610, p=0.3929552094
+Sensitivity all k estimates: p=0.4276714562
+
+School study-now rates:
+Tomorrow: 86.387%
+3 days: 60.000%
+1 week: 34.555%
+Cochran Q=116.193548, df=2, p=5.873426676e-26
+
+Likert n=179, mean=2.586592, median=3.000
+Spearman ln(k)-school delay score: n=163, rho=0.126097, p=0.1087328177
+Spearman ln(k)-Likert: n=154, rho=-0.016302, p=0.8409556314
+Spearman school delay-Likert: n=179, rho=0.351924, p=1.359353089e-06
